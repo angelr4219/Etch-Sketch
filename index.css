@@ -1,0 +1,22 @@
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 336px; /* Adjust the width as needed */
+ 
+    height: 336px; /* Adjust the height as needed */    
+
+}
+  
+.square {
+    width: 20px; /* Adjust the size of each square */
+    height: 20px; /* Adjust the size of each square */
+    border: 1px solid black; /* Border to visualize the squares */
+
+flex-wrap: wrap;
+}
+
+.square:hover {
+    background-color:  rgba(255, 0, 157, 0.719);
+  }
